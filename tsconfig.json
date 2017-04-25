@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+
+  // Full List: http://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [ "ES7", "DOM" ],
+    "module": "commonjs",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty":true
+  }
+}

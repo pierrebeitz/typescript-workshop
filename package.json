@@ -1,0 +1,14 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.1",
+  "description": "naymspace typescript-workshop",
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.1.0",
+    "brunch": "^2.5.3",
+    "brunch-typescript": "^1.8.1",
+    "uglify-js-brunch": "^2.0.1"
+  }
+}
