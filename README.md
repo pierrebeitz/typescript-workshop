@@ -168,7 +168,7 @@ interface DrawableShape extends Shape {
   draw(): void;
 }
 
-class DrawableCircle extends DrawableShape {
+class DrawableCircle implements DrawableShape {
   radius: number;
 }
 ```
