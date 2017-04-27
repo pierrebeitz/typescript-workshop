@@ -1,9 +1,9 @@
-Typescript-Workshop
+TypeScript-Workshop
 ======================
 
-You have a basic knowledge of ES6 and want to learn you a Typescript for great good! Well, you've come to the right place!
+You have a basic knowledge of ES6 and want to learn you a TypeScript for great good! Well, you've come to the right place!
 
-This workshop is meant to help you, a seasoned JS-developer, to get up to speed with Typescript in no time!
+This workshop is meant to help you, a seasoned JS-developer, to get up to speed with TypeScript in no time!
 
 _This is an early version and there is quite some potential to improve the coding-parts in particular._
 
@@ -14,7 +14,7 @@ yarn
 yarn start
 ```
 
-You also might want to install a Typescript-plugin for your editor before starting!
+You also might want to install a TypeScript-plugin for your editor before starting!
 
 ## Getting started
 
@@ -74,7 +74,7 @@ If you should ever need more info, [click here](https://www.typescriptlang.org/d
 Our customer just reported a critical issue!
 
 The App at `http://localhost:3333` falsely greets with `Hello, [object Object]`!
-Fortunately Alice recently introduced Typescript to the project. Unfortunately she was in a hurry and used `any`-annotations everywhere to make the compiler happy!
+Fortunately Alice recently introduced TypeScript to the project. Unfortunately she was in a hurry and used `any`-annotations everywhere to make the compiler happy!
 
 Narrow down the types in `app/app.ts` and afterwards let the compiler guide you to finding the bug! This has to happen ASAP (as always)!
 
@@ -317,8 +317,8 @@ console.log(a)      // => "someString". YAY!
 console.log(string) // =>  compiler error: "Cannot find name 'string"
 ```
 
-As all valid Javascript is supposed to be valid Typescript we **CAN** name variables `string` or `number`.
-While thinking through the example above you hopefully saw that this is a rather bad idea when using Typescript.
+As all valid Javascript is supposed to be valid TypeScript we **CAN** name variables `string` or `number`.
+While thinking through the example above you hopefully saw that this is a rather bad idea when using TypeScript.
 
 Here's an equivalent for arrays:
 
@@ -328,7 +328,7 @@ function f([first, second]: [number, number]) {}
 
 ## Going Further
 
-* Compile a `.ts`-file by hand. Hint: you'll need a Typescript-project - which means a `tsconfig.json`.
+* Compile a `.ts`-file by hand. Hint: you'll need a TypeScript-project - which means a `tsconfig.json`.
 * Learn about the configuration options in [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 * Learn about the [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
 * Learn about ["Declaration Files"](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).
