@@ -137,22 +137,22 @@ interface ClockInterface {
 }
 
 class Clock implements ClockInterface {
-  private currentTime: Date;
-  setTime(d: Date) {
+  private currentTime;
+  setTime(d) {
     this.currentTime = d;
   }
-  constructor(h: number, m: number) { }
+  constructor(h, m) { } // note how the params don't need to match the names from the interface
 }
 ```
 
 ### Coding Time!
 
-Add a `JJ`. A `JJ` is functionally equivalent to a `Greeter` except it always greets with `Yo, digga!`.
+Add a `JJ`. A `JJ` is functionally equivalent to a `Greeter` except it always greets with `Yo, digga!`. Let your `JJ` inherit from `Greeter`!
 
 Remember! Work those bullets one after another!
 
-- If your `JJ` swallows a superfluous string during instantiation, teach it to work without input!
-- If your `JJ` contains a constructor, please remove it. You might need to tell the Greeter to just greet `you` by default.
+- If your `JJ` now needs a string for instantiation, teach it to work without that!
+- If your `JJ` now contains a constructor, please remove it. You might need to tell the Greeter to just greet `you` by default.
 - If somebody could obtain your default value using something like `(new Greeter())['myDefaultPropName']` make sure to protect your private parts!
 - Note that `constructor(private greeting : string) {` will automatically create a private instance-variable called `greeting`. Can you golf your code with this?
 - The customer decided that the greeting-prefix ("Hallo,") should be customizable! Extract an `Greeting`-Interface and adapt you code.
